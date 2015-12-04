@@ -1,7 +1,7 @@
 <?php
 	//this will create a new row to add new user to database
 	$response = array();
-	
+	//update code
 	//check for required fields
 	if(isset($_POST['uid']) && isset($_POST['vid'])){
 		$uid = $_POST['uid'];
